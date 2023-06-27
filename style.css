@@ -1,25 +1,32 @@
 body {
     width: 1390px;
     height: 1600px;
+    margin: 0 auto;
 }
 
 header {
     width: 1390px;
     height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background: #68085F;
 }
 
 main {
     width: 1390px;
-    height: 886px;
+    height: 720px;
     background-color: #C509B2;
 }
 
 
 
 footer {
-    height: 632px;
+    height: 500px;
     background-color: #68085F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -47,20 +54,17 @@ footer {
     width: 60px;
     height: 44px;
     opacity: 0.8;
-     text-align: center;
+    text-align: center;
+    transition: 0.5s;
 
 }
 
 .menu-item:hover {
     cursor: pointer;
     color: #fff;
-    outline: 1px solid #f4eff2;
-    border: none;
     text-align: center;
-    border-radius: 10px;
     opacity: 1.8;
     transform: scale(1.1);
-    transition: 0.5s;
 
 }
 
@@ -80,6 +84,7 @@ footer {
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
     border-radius: 50px;
     border: 1px solid #7C6AFA;
+    transition: 0.5s;
 }
 
 .register-button:hover {
@@ -88,7 +93,7 @@ footer {
     outline: 1px solid #f4eff2;
     border: none;
     transform: scale(1.1);
-    transition: 0.5s;
+
 
 }
 
@@ -147,7 +152,7 @@ h1 {
 }
 
 .container_basic {
-    height: 700px;
+    height: 500px;
     display: flex;
 
 }
@@ -196,6 +201,8 @@ h2 {
     border-radius: 50px;
     border: 1px solid #FFFFFF;
     background-color: #C509B2;
+    margin-top: 15px;
+    transition: 0.5s;
 
 }
 
@@ -205,7 +212,7 @@ h2 {
     outline: 2px solid #f4eff2;
     border: none;
     transform: scale(1.1);
- transition: 0.5s;
+
 
 }
 
@@ -237,7 +244,7 @@ h4 {
 }
 
 .container_footer {
-    height: 400px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -259,7 +266,7 @@ h4 {
     border-radius: 50px;
     width: 353px;
     height: 44px;
-    font-size: 16px;
+    font-size: 22px;
     background-color: #FFFFFF;
     text-align: center;
     opacity: 0.25;
@@ -280,6 +287,7 @@ h4 {
     color: #FFFFFF;
     font-size: 16px;
     text-align: center;
+    transition: 0.5s;
 }
 
 .subscribe_button:hover {
@@ -318,6 +326,7 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 
 .social_item:hover {
@@ -325,7 +334,7 @@ h4 {
     outline: 2px solid #f4eff2;
     border: none;
     transform: scale(1.1);
-    transition: 0.5s;
+
     cursor: pointer;
 }
 
