@@ -1,6 +1,6 @@
 body {
 
-    height: 1600px;
+    min-height: 1600px;
     margin: 0 auto;
 }
 
@@ -14,8 +14,8 @@ header {
 }
 
 main {
-    width: 1390px;
-    height: 720px;
+    width: 100vw;
+    min-height: 720px;
     background-color: #C509B2;
 }
 
@@ -358,8 +358,19 @@ h4 {
     }
 
     .inputText {
-        width:300px;
+        width: 300px;
         text-align: start;
         padding-left: 10px;
+
     }
+}
+
+@media (max-width: 1000px) {
+    .container_cards {
+        flex-wrap:wrap;
+    }
+    .card{
+        margin-bottom: 35px;
+    }
+
 }
